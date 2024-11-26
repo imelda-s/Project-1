@@ -1,0 +1,211 @@
+body{
+    background-color: rgba(255, 255, 255, 0.314);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgb(255, 255, 255)), url("background.png"); 
+    /* background-blend-mode:lighten; */
+    background-repeat: no-repeat;
+    background-size: contain 650px;
+}
+
+.container{
+    width: 930px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+header{
+    height: 125px;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+
+header h1{
+    text-align: center;
+    text-shadow: -1px -1px 5px rgba(255, 0, 0, 0.5), 1px 1px 5px rgba(255, 0, 0,0.5);
+    padding: 22px;
+    margin: 0px;
+    font-family: shrikhand;
+}
+
+nav ul{
+    border-bottom: 2px solid white ;
+    margin: 0px;
+
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+    padding: 12px 10px;
+    letter-spacing: 5px;
+    font-size: 11px;
+    font-family: serif;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+#iklan{
+    clear: right;
+    float: right;
+    width: 246px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: red;
+    margin-top: 10px;
+}
+
+#iklan h1{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+aside{
+    float: right;
+    width: 250px;
+    background-color:black ;
+    color: white;
+    font-size: 13px;
+}
+
+aside #header-nav-aside{
+    float: left;
+    background-color: red;
+    width: 230px;
+    padding: 10px 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+aside a{
+    color: white;
+    text-decoration: none;
+}
+
+aside #content-nav-aside{
+    clear: both;
+
+    h4{
+        background-color: grey;
+        padding: 10px;
+        font-weight:normal;
+    }
+}
+
+.content{
+    width: 650px;
+}
+
+#artikel{
+    
+    font-size: 14px;
+    text-align: justify;
+    border-bottom: 1px dashed black;
+}
+
+#artikel h2{
+    margin: 0px;
+}
+
+#artikel p{
+    padding-left: 20px;
+}
+
+#teks-artikel{
+    margin-top: 2px;
+    color: grey;
+}
+
+#pembuka{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#comment{
+    clear: both;
+}
+
+#jumlah-komen{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#top-comment{
+    text-align: justify;
+}
+
+#top-comment {
+    .header-comment{
+        border-top: double;
+        border-bottom: double;
+        height: 50px;
+        
+
+        h3{
+        float: left;
+        margin: 15px 0px;
+        }
+        p{
+        float: right;
+        }
+    }
+
+    #isi-komen{
+        clear: both;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    
+        a{
+            text-decoration: none;
+            color: white;
+            text-shadow: 2px 2px 5px black, -2px -2px 5px black, 0px 0px 10px black;
+    
+        }
+    }
+    
+}
+
+.comments{
+    padding-left: 40px;
+}
+
+.comments .comments{
+    padding-left: 40px;
+}
+
+.comments .comments blockquote{
+    font-style: italic;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    font-family: serif;
+    width: 300px;
+    margin: 0px auto;
+
+    p{
+        margin: 30px 20px 0px 30px;
+    }
+
+    h4{
+        padding: 20px 15px;
+    }
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    color: grey;
+    font-size: 10px;
+    margin: 20px;
+}
